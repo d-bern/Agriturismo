@@ -3355,6 +3355,14 @@ p.copy-right a:hover{
 	}
 }
 @media (max-width:320px) {
+	.banner-info {
+		padding: 1em 0em;
+		margin: 50% auto 0;
+		width: 82%;
+	}
+	.banner {
+		min-height: 300px;
+	}
 	.view {
 		width: 241px;
 		height: 310px;
@@ -3363,7 +3371,6 @@ p.copy-right a:hover{
 	.social-icons li {
 		display: inline-block;
 		float: left;
-	   
 		width: 25%;
 	}
 		p.copy-right {
