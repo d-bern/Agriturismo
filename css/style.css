@@ -447,8 +447,8 @@ label{
      width: 22%;
     height: 3px;
 }
-/*--products--*/
-#about {
+/*--ristorante--*/
+#ristorante {
     padding: 6em 0;
 }
 .arrows-two {
@@ -720,9 +720,9 @@ figure.effect-jazz:hover p {
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
-/*--//products--*/
-/*--services--*/
-#services {
+
+/*--camere--*/
+#camere {
     background: #f7f7f7;
     padding:7em 0;
 	text-align:center;
@@ -753,8 +753,8 @@ a.hi-icon img {
     line-height: 1.5em;
     font-size: 1em;
 }
-/*--team--*/
-#team {
+/*--azienda--*/
+#azienda {
        padding: 7.2em 6em;
 	   text-align:center;
 }
@@ -957,10 +957,12 @@ h3.title,h2.title.review {
     -ms-background-size: cover;
     min-height:700px;
 }
-/*--//review--*/
-#gallery {
+.pagina-singola {
     padding: 6em 0;
-    
+}
+/*-- Posizione --*/
+#posizione {
+    padding: 6em 0;
 }
 .gallery-grids {
     margin-top: 3em;
@@ -1211,9 +1213,9 @@ h2.sec-head {
     font-size: 3em;
     font-weight: bold;
 }
-/*--social-icons--*/
-/*--reservation--*/
-#reservation {
+
+/*--paese--*/
+#paese {
     background: url(../images/riofreddo3.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
@@ -1329,7 +1331,7 @@ h3.tittle.reserve {
         width: 11%;
     height: 3px;
 }
-/*--//reservation--*/
+
 /*--single--*/
 .banner.two {
     background: url(../images/banner.jpg) no-repeat 0px 0px;
@@ -1610,7 +1612,7 @@ p.post a {
 .blog-section {
     padding: 6em 0;
 }
-/*-- contact-page --*/
+/*-- contatti --*/
 h3.tittle {
     font-size: 5em;
     color: #333;
@@ -1804,7 +1806,7 @@ form input[type="submit"]:focus {
 .con-top.two {
     margin-left: 3em;
 }
-#contact {
+#contatti {
     padding: 6em 0;
     background: #f7f7f7;
 }
@@ -1952,10 +1954,10 @@ p.copy-right a:hover{
 	
 }
 @media (max-width:1280px) {
-	#about,#team,#gallery,#contact,.blog-section{
+	#ristorante,#azienda,#posizione,#contatti,.blog-section{
 		    padding:5em 0;
 	}
-	#services{
+	#camere{
 		 padding:6em 0;
 	}
 	.info-gal-con h4 {
@@ -2183,7 +2185,7 @@ p.copy-right a:hover{
 	.book-reservation {
 		margin-top:0em;
 	}
-	#reservation {
+	#paese {
 		min-height:750px;
 		padding-bottom: 3em;
 	}
@@ -2313,10 +2315,10 @@ p.copy-right a:hover{
 		margin: 25% auto 0;
 		width: 71%;
 	}
-	#about, #team, #gallery, #contact, .blog-section,.test-monials {
+	#ristorante, #azienda, #posizione, #contatti, .blog-section,.test-monials {
 		padding: 3.5em 0;
 	}
-	#services {
+	#camere {
 		padding: 4em 0;
 	}
 	.test-left-img {
@@ -2675,7 +2677,7 @@ p.copy-right a:hover{
 	.book-reservation label {
 		font-size: 1em;
 	}
-	#reservation {
+	#paese {
 		min-height: 681px;
 		padding-bottom: 0em;
 	}
@@ -2785,7 +2787,7 @@ p.copy-right a:hover{
 	.book-reservation label {
 		font-size: 1em;
 	}
-	#reservation {
+	#paese {
 		min-height: 681px;
 		padding-bottom: 0em;
 	}
@@ -2902,7 +2904,7 @@ p.copy-right a:hover{
 	.book-reservation label {
 		font-size: 1em;
 	}
-	#reservation {
+	#paese {
 		min-height: 681px;
 		padding-bottom: 0em;
 	}
@@ -2938,7 +2940,7 @@ p.copy-right a:hover{
 	.top-menu {
 		margin-top: 0.5em;
 	}
-	#about, #team, #gallery, #contact, .blog-section, .test-monials,#services {
+	#ristorante, #azienda, #posizione, #contatti, .blog-section, .test-monials,#camere {
 		padding: 2.5em 0;
 	}
 	.inst-grids {
@@ -3069,10 +3071,10 @@ p.copy-right a:hover{
 		font-size: 0.9em;
 		line-height: 13px;
 	}
-	#about, #team, #gallery, #contact, .blog-section, .test-monials {
+	#ristorante, #azienda, #posizione, #contatti, .blog-section, .test-monials {
 		padding: 2em 0;
 	}
-	#services {
+	#camere {
 		padding: 2.5em 0;
 	}
 	.banner-info p {
@@ -3181,7 +3183,7 @@ p.copy-right a:hover{
 		left: 39%;
 		top: 89%;
 	}
-	div#about {
+	div#ristorante {
 		padding: 0 0 2em 0;
 	}
 	.arrows img,.arrows-two img,.arrows-serve img,.arrows-reserve img {
@@ -3232,7 +3234,7 @@ p.copy-right a:hover{
 		background: none;
 		margin-bottom: 1.5em;
 	}
-	#reservation {
+	#paese {
 		min-height: 580px;
 		padding-bottom: 0em;
 	}
