@@ -47,7 +47,7 @@ label{
 }
 /*-- header --*/
 .banner {
-    background: url(../images/esempio-banner2.jpg) no-repeat 0px 0px;
+    background: url(../images/esempio-banner.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1228,7 +1228,7 @@ h2.sec-head {
 
 /*--paese--*/
 #paese {
-    background: url(../images/riofreddo3.jpg) no-repeat 0px 0px;
+    background: url(../images/riofreddo.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
