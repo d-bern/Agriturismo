@@ -402,7 +402,7 @@ label{
 }
 .banner-info {
     padding: 5em 2em;
-    margin: 15% auto 0;
+    margin: 12% auto 0;
     width: 60%;
     text-align: center;
     border: 2px solid #fff;
@@ -422,7 +422,13 @@ label{
 .banner-info span {
     color: #EFA52C;
     letter-spacing: 4px;
-    font-size: 0.9em;
+    font-size: 1.5em;
+}
+.prossima-apertura {
+    color: #FFF;
+    letter-spacing: 4px;
+    margin-top: 1.5em;
+    font-size: 1.5em;
 }
 .arrows{
 	    position:relative;
@@ -486,6 +492,9 @@ h4.tittle {
     text-align: center;
     font-size: 5em;
 }
+.nota p {
+    margin-top: 0.2em;
+}
 .ab-text {
     text-align: center;
     margin-top: 2em;
@@ -494,7 +503,7 @@ h4.tittle {
     color: #777;
     line-height: 1.9em;
     font-size: 1em;
-    margin: 1em 0;
+    margin: 1.2em 0;
 }
 .ab-left {
     float: left;
@@ -729,6 +738,9 @@ figure.effect-jazz:hover p {
 }
 .inst-grids {
       margin: 3em 0 2em 2em;
+}
+.inst-grids-menu {
+      margin: 1em 0 2em 2em;
 }
 .hi-icon-effect-9a .hi-icon:hover {
     box-shadow: 0 0 0 5px #EFA52C;
@@ -1810,6 +1822,26 @@ form input[type="submit"]:focus {
     padding: 6em 0;
     background: #f7f7f7;
 }
+.link{
+  margin-top: 2em;
+}
+.link h3{
+    display: inline;
+    font-size: 1.2em;
+    color: #efa52c;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+.link a{
+  font-size: 0.9em;
+  color: #fff;
+  padding-left: 1em;
+}
+.link a:hover{
+  color: #efa52c;
+}
 .con-top h4 ,h4.info{
     font-size: 1.4em;
     color: #efa52c;
@@ -2460,6 +2492,11 @@ p.copy-right a:hover{
 	.banner-info h3 {
 		font-size: 3em;
 	}
+  .prossima-apertura {
+    letter-spacing: 4px;
+    margin-top: 1.5em;
+    font-size: 0.9em;
+  }
 	.logo a h1 {
 		font-size: 3.3em;
 	}
