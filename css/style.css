@@ -65,6 +65,8 @@ label{
 /*--head-top--*/
 .logo{
   float:left;
+  width: 200px;
+  height: 60px;
 }
 .phone {
     float: right;
@@ -1987,10 +1989,10 @@ p.copy-right a:hover{
 }
 @media (max-width:1280px) {
 	#ristorante,#azienda,#posizione,#contatti,.blog-section{
-		    padding:5em 0;
+    padding:5em 0;
 	}
 	#camere{
-		 padding:6em 0;
+		padding:5em 0;
 	}
 	.info-gal-con h4 {
 		font-size: 45px;
@@ -2014,6 +2016,10 @@ p.copy-right a:hover{
 		margin: 11% auto 0;
 		width: 54%;
 	}
+  .link h3{
+      display: block;
+      font-size: 1.2em !important;
+  }
 	.arrows:before {
 		content: '';
 		position: absolute;
@@ -2024,7 +2030,7 @@ p.copy-right a:hover{
 	}
 	.bottom-top p {
 		margin: 1em auto;
-		width: 65%;
+		width: 100%;
 	}
 	.arrows:after {
 		content: '';
@@ -2169,6 +2175,10 @@ p.copy-right a:hover{
     .banner-info {
 		margin: 22% auto 0;
 	}
+  .container {
+    width: auto;
+    height: auto;
+  }
 	.top-menu li a {
 		font-size: 0.87em;
 	}
@@ -2292,7 +2302,6 @@ p.copy-right a:hover{
 	}
 	.logo a h1 {
     font-weight: bold;
-    font-size: 4em;
 	}
 }
 @media (max-width:800px) {
@@ -2300,10 +2309,6 @@ p.copy-right a:hover{
 		padding: 4em 2em;
 		margin: 20% auto 0;
 		width: 71%;
-	}
-	.logo a h1 {
-
-      font-size: 4em;
 	}
 	a.blog-text {
       font-size: 1.4em;
@@ -2371,9 +2376,6 @@ p.copy-right a:hover{
 	}
 	.banner-info h3 {
 		font-size: 3em;
-	}
-	.logo a h1 {
-		font-size: 4em;
 	}
 	.banner-info span {
 		letter-spacing: 2px;
@@ -2497,9 +2499,6 @@ p.copy-right a:hover{
     margin-top: 1.5em;
     font-size: 0.9em;
   }
-	.logo a h1 {
-		font-size: 3.3em;
-	}
 	.banner-info span {
 		letter-spacing: 2px;
 		font-size: 0.8em;
@@ -2621,9 +2620,6 @@ p.copy-right a:hover{
 		text-transform: uppercase;
 		letter-spacing: 0px;
 	}
-	.logo a h1 {
-		font-size: 4em;
-	}
 	.map iframe {
       height: 300px;
 	}
@@ -2734,10 +2730,7 @@ p.copy-right a:hover{
 	}
 }
 @media (max-width:568px) {
-	.logo a h1 {
-		font-size: 4em;
-	}
-	
+
 	.social-icons li a {
 		margin-right: 1em;
 	}
@@ -2843,9 +2836,6 @@ p.copy-right a:hover{
 	}
 }
 @media (max-width:480px) {
-	.logo a h1 {
-		font-size: 4em;
-	}
 	.social-icons li a {
 		margin-right: 0em;
 	}
@@ -3003,6 +2993,9 @@ p.copy-right a:hover{
 		float: left;
 		margin-right: 0%;
 	}
+  .link a{
+      display: block;
+  }
 	figure.effect-jazz p {
 		padding: 0em 0em;
 		text-transform: none;
@@ -3138,7 +3131,7 @@ p.copy-right a:hover{
 @media (max-width:384px) {
     .banner-info {
 /*		padding: 1em 0em;*/
-		margin: 60% auto 0;
+		margin: 30% auto 0;
 /*		width: 82%;*/
 	}
 	.banner-info p {
@@ -3201,7 +3194,7 @@ p.copy-right a:hover{
 		font-size: 0.6em;
 	}
 	.logo a h1 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 	.down img {
 		width: 50%;
@@ -3396,7 +3389,7 @@ p.copy-right a:hover{
 @media (max-width:320px) {
 	.banner-info {
 		padding: 1em 0em;
-		margin: 50% auto 0;
+		margin: 30% auto 0;
 		width: 82%;
 	}
 	.banner {

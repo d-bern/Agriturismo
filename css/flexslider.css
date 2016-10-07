@@ -40,19 +40,19 @@
 /* ====================================================================================================================
  * BASE STYLES
  * ====================================================================================================================*/
-.flexslider-right {
+.flexslider {
   margin: 0;
   padding: 0;
 }
-.flexslider-right .slides > li {
+.flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;
 }
-.flexslider-right .slides img {
+.flexslider .slides img {
   width: 100%;
   display: block;
 }
-.flexslider-right .slides:after {
+.flexslider .slides:after {
   content: "\0020";
   display: block;
   clear: both;
@@ -60,78 +60,31 @@
   line-height: 0;
   height: 0;
 }
-html[xmlns] .flexslider-right .slides {
+html[xmlns] .flexslider .slides {
   display: block;
 }
-* html .flexslider-right .slides {
+* html .flexslider .slides {
   height: 1%;
 }
-.no-js .flexslider-right .slides > li:first-child {
+.no-js .flexslider .slides > li:first-child {
   display: block;
 }
-.flexslider-left {
-  margin: 0;
-  padding: 0;
-}
-.flexslider-left .slides > li {
-  display: none;
-  -webkit-backface-visibility: hidden;
-}
-.flexslider-left .slides img {
+.regular {
   width: 100%;
-  display: block;
+  margin-top: 80px;
 }
-.flexslider-left .slides:after {
-  content: "\0020";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
+.small {
+  width: 90%;
+  margin-top: 40px;
 }
-html[xmlns] .flexslider-left .slides {
-  display: block;
-}
-* html .flexslider-left .slides {
-  height: 1%;
-}
-.no-js .flexslider-left .slides > li:first-child {
-  display: block;
-}
-.flexslider-left-small {
-  margin: 0;
-  padding: 0;
-}
-.flexslider-left-small .slides > li {
-  display: none;
-  -webkit-backface-visibility: hidden;
-}
-.flexslider-left-small .slides img {
-  width: 100%;
-  display: block;
-}
-.flexslider-left-small .slides:after {
-  content: "\0020";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-html[xmlns] .flexslider-left-small .slides {
-  display: block;
-}
-* html .flexslider-left-small .slides {
-  height: 1%;
-}
-.no-js .flexslider-left-small .slides > li:first-child {
-  display: block;
-}
+
 /* ====================================================================================================================
  * DEFAULT THEME
  * ====================================================================================================================*/
-.flexslider-right {
-  margin: 0 0 60px;
+.flexslider {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 60px;
   background: #fff;
   border: 4px solid #fff;
   position: relative;
@@ -144,52 +97,10 @@ html[xmlns] .flexslider-left-small .slides {
   -o-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
   box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
 }
-.flexslider-right .slides {
+.flexslider .slides {
   zoom: 1;
 }
-.flexslider-right .slides img {
-  height: auto;
-  -moz-user-select: none;
-}
-.flexslider-left {
-  margin: 0 0 60px;
-  background: #fff;
-  border: 4px solid #fff;
-  position: relative;
-  zoom: 1;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
-  -o-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
-  box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
-}
-.flexslider-left .slides {
-  zoom: 1;
-}
-.flexslider-left .slides img {
-  height: auto;
-  -moz-user-select: none;
-}
-.flexslider-left-small {
-  margin: 0 0 60px;
-  background: #fff;
-  border: 4px solid #fff;
-  position: relative;
-  zoom: 1;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
-  -o-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
-  box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
-}
-.flexslider-left-small .slides {
-  zoom: 1;
-}
-.flexslider-left-small .slides img {
+.flexslider .slides img {
   height: auto;
   -moz-user-select: none;
 }
@@ -248,46 +159,18 @@ html[xmlns] .flexslider-left-small .slides {
   right: -50px;
   text-align: right;
 }
-.flexslider-right:hover .flex-direction-nav .flex-prev {
+.flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;
   left: 10px;
 }
-.flexslider-right:hover .flex-direction-nav .flex-prev:hover {
+.flexslider:hover .flex-direction-nav .flex-prev:hover {
   opacity: 1;
 }
-.flexslider-right:hover .flex-direction-nav .flex-next {
+.flexslider:hover .flex-direction-nav .flex-next {
   opacity: 0.7;
   right: 10px;
 }
-.flexslider-right:hover .flex-direction-nav .flex-next:hover {
-  opacity: 1;
-}
-.flexslider-left:hover .flex-direction-nav .flex-prev {
-  opacity: 0.7;
-  left: 10px;
-}
-.flexslider-left:hover .flex-direction-nav .flex-prev:hover {
-  opacity: 1;
-}
-.flexslider-left:hover .flex-direction-nav .flex-next {
-  opacity: 0.7;
-  right: 10px;
-}
-.flexslider-left:hover .flex-direction-nav .flex-next:hover {
-  opacity: 1;
-}
-.flexslider-left-small:hover .flex-direction-nav .flex-prev {
-  opacity: 0.7;
-  left: 10px;
-}
-.flexslider-left-small:hover .flex-direction-nav .flex-prev:hover {
-  opacity: 1;
-}
-.flexslider-left-small:hover .flex-direction-nav .flex-next {
-  opacity: 0.7;
-  right: 10px;
-}
-.flexslider-left-small:hover .flex-direction-nav .flex-next:hover {
+.flexslider:hover .flex-direction-nav .flex-next:hover {
   opacity: 1;
 }
 .flex-direction-nav .flex-disabled {
@@ -388,31 +271,10 @@ html[xmlns] .flexslider-left-small .slides {
   opacity: 1;
   cursor: default;
 }
-.flexslider-right {
+.flexslider {
   padding: 10px 10px;
   box-shadow: 0px 0px 9px #BDBDBD;
   margin-right: auto;
-  margin-top: 80px;
-  margin-left: 20px;
-  width: 100%;
-  height: auto;
-}
-.flexslider-left {
-  padding: 10px 10px;
-  box-shadow: 0px 0px 9px #BDBDBD;
-  margin-right: 40px;
-  margin-top: 60px;
-  margin-left: auto;
-  width: 100%;
-  height: auto;
-}
-.flexslider-left-small {
-  padding: 10px 10px;
-  box-shadow: 0px 0px 9px #BDBDBD;
-  margin-right: 40px;
-  margin-top: 40px;
-  margin-left: auto;
-  width: 100%;
   height: auto;
 }
 
