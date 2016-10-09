@@ -220,6 +220,9 @@ label{
 		max-height: 0;
 		color: #333;
 	}
+  h3.tittle,h3.single {
+    margin-top: 50px;
+  }
 }
 /*--slider--*/
 #slider2,
@@ -1828,7 +1831,7 @@ form input[type="submit"]:focus {
   margin-top: 2em;
 }
 .link h3{
-    display: inline;
+    display: block;
     font-size: 1.2em;
     color: #efa52c;
     font-weight: bold;
@@ -2313,6 +2316,9 @@ p.copy-right a:hover{
 	a.blog-text {
       font-size: 1.4em;
 	}
+  .menu-section{
+    margin-top: 9em;
+}
 	.down {
 		position: absolute;
 		left: 42%;
