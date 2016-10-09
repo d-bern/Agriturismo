@@ -1,0 +1,14 @@
+RewriteEngine On
+
+RewriteRule      ^menu$                      menu.html                    [NC,L]
+RewriteRule    	 ^miele$					 miele.html                   [NC,L]
+RewriteRule		 ^animali$                   animali.html 				  [NC,L]
+RewriteRule		 ^frutta$           		 frutta.html 				  [NC,L]
+RewriteRule		 ^ortaggi$           		 ortaggi.html 				  [NC,L]
+
+RewriteRule		 ^ristorante$           	 #ristorante 				  [NC,L]
+RewriteRule		 ^camere$           		 #camere 				  	  [NC,L]
+RewriteRule		 ^azienda$           		 #azienda 				  	  [NC,L]
+RewriteRule		 ^paese$           		 	 #paese 				  	  [NC,L]
+RewriteRule		 ^posizione$           		 #posizione 				  [NC,L]
+RewriteRule		 ^contatti$           		 #contatti 				  	  [NC,L]
