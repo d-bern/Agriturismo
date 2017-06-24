@@ -1,4 +1,4 @@
-/*--A Design by W3layouts 
+/*--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -31,9 +31,9 @@ input[type="button"],input[type="submit"],li.parallelogram{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;	
+	margin:0;
  font-family: 'Italianno', cursive;
-}	
+}
 p{
 	margin:0;
 	font-family: 'Merriweather Sans', sans-serif;
@@ -47,7 +47,7 @@ label{
 }
 /*-- header --*/
 .banner {
-    background: url(../images/esempio-banner.jpg) no-repeat 0px 0px;
+    background: url(../images/banner2.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -57,7 +57,7 @@ label{
 	position:relative;
 }
 .down {
-      position: absolute;
+    position: absolute;
     left: 46%;
     top: 92%;
 
@@ -67,6 +67,9 @@ label{
   float:left;
   width: 200px;
   height: 60px;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
 }
 .phone {
     float: right;
@@ -103,7 +106,7 @@ label{
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    
+
 	top: 0;
 	left:0%;
 	z-index:9999;
@@ -128,7 +131,7 @@ label{
 	margin:0;
 	padding:0;
 }
-.top-menu li {		
+.top-menu li {
 	text-transform:uppercase;
 	display:inline-block;
 }
@@ -139,7 +142,7 @@ label{
 	padding:0;
 	font-weight:400;
 	font-size:1em;
-}	
+}
 .top-menu li a.active{
   color: #fff200;
   }
@@ -170,6 +173,9 @@ label{
 /*-- //nav-hover --*/
 
 @media only screen and (max-width :800px) {
+  .header-bottom {
+    padding: 1em 0em
+  }
 	span.menu {
 	  width: 35px;
 	  height: 35px;
@@ -177,7 +183,10 @@ label{
 	  display: inline-block;
 	  float: right;
 	  cursor: pointer;
-	  margin: 32px 3px;
+
+    /*position: absolute;*/
+    top: 50%;
+    margin-top: -17px;
 	}
 	.top-menu {
 		float: none;
@@ -406,8 +415,8 @@ label{
     border: 2px solid #EFA52C;
 }
 .banner-info {
-    padding: 5em 2em;
-    margin: 12% auto 0;
+    padding: 2.5em 2em;
+    margin: 10% auto 0;
     width: 60%;
     text-align: center;
     border: 2px solid #fff;
@@ -416,18 +425,20 @@ label{
     font-size: 5em;
     font-weight: 400;
     color:#EFA52C;
-	margin:0;
+	  margin:0;
 }
 .banner-info p {
     color: #fff;
     font-size:3.3em;
-	font-weight:bold;
-
+	  font-weight:bold;
 }
 .banner-info span {
     color: #EFA52C;
     letter-spacing: 4px;
     font-size: 1.5em;
+}
+.logo-image img {
+   width: 150px;
 }
 .prossima-apertura {
     color: #FFF;
@@ -934,7 +945,7 @@ h3.title,h2.title.review {
     color: #EFA52C;
     text-transform: none;
     margin-top: 0.7em;
-	
+
 }
 .test-review p {
     font-size: 1em;
@@ -1274,7 +1285,7 @@ h3.tittle.reserve {
     font-weight: bold;
     text-transform: uppercase;
 }
-.book-reservation label i{   
+.book-reservation label i{
      font-size: 0.9em;
     margin-right: 10px;
 	color: #EFA52C;
@@ -1413,7 +1424,7 @@ h3.single {
   text-align: center;
   margin-top:3em;
  }
- .comment-box h5 { 
+ .comment-box h5 {
    color:#E64B50;
     font-size: 1.3em;
  }
@@ -1473,7 +1484,7 @@ span.m_14 {
 .single_grid2 p {
 	  color: #777;
 	  font-size:1em;
-	  line-height: 1.9em;    
+	  line-height: 1.9em;
 	  margin-top: 0.5em;
   }
 .title a{
@@ -1545,7 +1556,7 @@ p.post a {
 	resize:none;
 	width: 100%;
 	margin: 0.5em 0em;
-	height: 185px;	
+	height: 185px;
 }
 .leave input[type="submit"]{
 	  border: none;
@@ -1936,7 +1947,7 @@ ul.social{
 ul.social li{
 	display:inline-block;
 }
-ul.social li a{  
+ul.social li a{
     margin-right:1em;
     -webkit-transition: .5s all;
     transition: .5s all;
@@ -1983,12 +1994,12 @@ p.copy-right a:hover{
 	.ab-text p,.services-gd p,.test-review p,.bottom-top p,p.wel-text,p.para1,.con-top ul li, .con-top ul li ,.single-img p{
 		font-size:0.9em;
 	}
-	
+
 	h3.tittle,h3.single {
 		font-size: 4.5em;
 	}
-	
-	
+
+
 }
 @media (max-width:1280px) {
 	#ristorante,#azienda,#posizione,#contatti,.blog-section{
@@ -2017,7 +2028,7 @@ p.copy-right a:hover{
 		padding: 4em 2em;
 		z-index: 999;
 		margin: 11% auto 0;
-		width: 54%;
+		width: 65%;
 	}
   .link h3{
       display: block;
@@ -2068,7 +2079,7 @@ p.copy-right a:hover{
 	.view .mask, .view .content{
 		    width: 233px;
     height: 330px;
-		
+
 	}
 	.s-1 h3, .s-2 h3, .s-3 h3, .s-1 h3, .s-2 h3, .s-4 h3 {
 		font-size: 1.3em;
@@ -2175,8 +2186,8 @@ p.copy-right a:hover{
 	}
 }
 @media (max-width:991px) {
-    .banner-info {
-		margin: 22% auto 0;
+  .banner-info {
+		margin: 12% auto 0;
 	}
   .container {
     width: auto;
@@ -2355,7 +2366,7 @@ p.copy-right a:hover{
 	}
 	.banner-info {
 		padding: 2em 2em;
-		margin: 25% auto 0;
+		margin: 15% auto 0;
 		width: 71%;
 	}
 	#ristorante, #azienda, #posizione, #contatti, .blog-section,.test-monials {
@@ -2392,9 +2403,12 @@ p.copy-right a:hover{
 	}
 	.banner-info {
 		padding: 2em 2em;
-		margin: 25% auto 0;
+		margin: 18% auto 0;
 		width: 71%;
 	}
+  .logo-image img {
+    width: 120px
+  }
 	.callbacks_tabs {
 		bottom: -14%;
 		left: 43%;
@@ -2514,7 +2528,7 @@ p.copy-right a:hover{
 	}
 	.banner-info {
 		padding: 2em 2em;
-		margin: 25% auto 0;
+		margin: 15% auto 0;
 		width: 71%;
 	}
 	.callbacks_tabs {
@@ -2671,8 +2685,8 @@ p.copy-right a:hover{
 		font-size: 2.5em;
 	}
 	.banner-info {
-		padding: 2em 1em;
-		margin: 25% auto 0;
+		padding: 1.5em 1em;
+		margin: 15% auto 0;
 		width: 82%;
 	}
 	.banner {
@@ -2778,8 +2792,8 @@ p.copy-right a:hover{
 		font-size: 2.5em;
 	}
 	.banner-info {
-		padding: 2em 1em;
-		margin: 30% auto 0;
+		padding: 1.5em 1em;
+		margin: 17% auto 0;
 		width: 82%;
 	}
 	.banner {
@@ -2888,10 +2902,13 @@ p.copy-right a:hover{
 		font-size: 2.5em;
 	}
 	.banner-info {
-		padding: 2em 1em;
-		margin: 32% auto 0;
+		padding: 1em 1em;
+		margin: 19% auto 0;
 		width: 82%;
 	}
+  .logo-image img {
+    width: 100px
+  }
 	ul.social {
 
     margin: 2em auto 0;
@@ -2962,7 +2979,6 @@ p.copy-right a:hover{
 		display: inline-block;
 		float: right;
 		cursor: pointer;
-		margin: 19px 3px;
 	}
 	ul.social-icons {
       margin: 2em auto 0;
@@ -3128,11 +3144,11 @@ p.copy-right a:hover{
 	.test-monials h5 {
       font-size: 1.5em;
 	}
-	
+
 	.test-review p {
 		margin: 1em 0em;
 	}
-	
+
 }
 @media (max-width:384px) {
     .banner-info {
@@ -3146,6 +3162,9 @@ p.copy-right a:hover{
 	.banner-info h3 {
 		font-size: 2em;
 	}
+  .logo-image img {
+    width: 90px
+  }
 	.down {
 		position: absolute;
 		left: 30%;
@@ -3179,8 +3198,8 @@ p.copy-right a:hover{
 }
 @media (max-width:375px) {
 	.banner-info {
-		padding: 1em 0em;
-		margin: 30% auto 0;
+		padding: 0.5em 0em;
+		margin: 25% auto 0;
 		width: 82%;
 	}
 	.banner {
@@ -3192,6 +3211,9 @@ p.copy-right a:hover{
 	.banner-info p {
 		font-size: 1em;
 	}
+  .logo-image img {
+    width: 80px
+  }
 	.arrows {
 		font-size: 1em;
 	}
@@ -3205,7 +3227,7 @@ p.copy-right a:hover{
 	.down img {
 		width: 50%;
 	}
-	
+
 	.callbacks_tabs a:after {
 		height:10px;
 		width:10px;
@@ -3447,5 +3469,19 @@ p.copy-right a:hover{
     padding: 18px 0;
     font-size: 13px;
     letter-spacing: 0em;
+	}
+}
+
+@media (max-width:280px) {
+	.banner-info {
+		padding: 1em 0em;
+		margin: 40% auto 0;
+		width: 82%;
+	}
+  .banner {
+    min-height: 350px
+  }
+	.logo {
+		width: 100px
 	}
 }
