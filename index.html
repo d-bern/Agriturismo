@@ -32,11 +32,11 @@
         });
     </script>
     <!-- Animazioni-->
-    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <!-- <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
     <script src="js/wow.min.js"></script>
         <script>
              new WOW().init();
-        </script>
+        </script> -->
     <!-- Flexslider-->
     <link rel="stylesheet" href="css/flexslider.css" type="text/css">
     <script src="js/jquery.flexslider.js"></script>
@@ -73,7 +73,7 @@
                                 <li class="active"><a data-hover="Home" href="#home" class="scroll">Home</a></li>
                                 <li><a data-hover="Ristorante" href="#ristorante" class="scroll">Ristorante</a></li>
                                 <li><a data-hover="Camere" href="#camere" class="scroll">Camere</a></li>
-                                <!-- <li><a data-hover="Azienda" href="#azienda" class="scroll">Azienda</a></li> -->
+                                <li><a data-hover="Azienda&nbsp;agricola" href="#azienda" class="scroll">Azienda agricola</a></li>
                                 <li><a data-hover="Il&nbsp;paese" href="#paese" class="scroll">Il paese</a></li>
                                 <li><a data-hover="Dove&nbsp;siamo" href="#posizione" class="scroll">Dove siamo</a></li>
                                 <li><a data-hover="Contatti" href="#contatti" class="scroll">Contatti</a></li>
@@ -83,6 +83,12 @@
                     <!-- Script menu a discesa-->
                     <script>
                         $("span.menu").click(function(){
+                            $(".top-menu ul").slideToggle("slow" , function(){
+                            });
+                        });
+                    </script>
+                    <script>
+                        $("span.menu ul li").click(function(){
                             $(".top-menu ul").slideToggle("slow" , function(){
                             });
                         });
@@ -179,8 +185,10 @@
                 <div class="col-md-6 ab-text">
                     <h3 class="tittle wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">Camere</h3>
                     <div class="arrows-two wow slideInDown"  data-wow-duration="1s" data-wow-delay=".5s"><img src="images/border.png" alt="border"/></div>
-                    <p class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempor dolor in lectus euismod congue. Phasellus pharetra tortor eget metus laoreet ultricies vel vitae nulla. Proin mattis justo ut ante cursus tincidunt. Curabitur et justo venenatis, pulvinar est eget, iaculis eros. </p>
-                    <p class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Aenean et diam sed est fringilla sagittis. Quisque id dui ac felis efficitur sagittis et ut dui. Donec neque ligula, posuere nec viverra ac, porttitor vel turpis. Proin gravida id urna vel placerat. Etiam consequat porta ipsum, nec pulvinar dui ultricies dignissim. </p>
+                    <p class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">
+                      I nostri ospiti potranno gustare cibi genuini e riposare in spaziose camere, modernamente arredate,
+                      dotate di televisione e servizio frigo.</p>
+                    <!-- <p class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Aenean et diam sed est fringilla sagittis. Quisque id dui ac felis efficitur sagittis et ut dui. Donec neque ligula, posuere nec viverra ac, porttitor vel turpis. Proin gravida id urna vel placerat. Etiam consequat porta ipsum, nec pulvinar dui ultricies dignissim. </p> -->
                 </div>
                 <div class="clearfix"> </div>
             </div>
@@ -225,6 +233,47 @@
             </div>
         </div>
     </div> -->
+
+    <!-- Azienda -->
+    <div class="azienda" id="azienda">
+        <div class="container">
+            <div class="ddsfdffsssd-section">
+                <div class="col-md-6 ab-text">
+                    <h3 class="tittle wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">Azienda agricola</h3>
+                    <div class="arrows-two wow slideInDown"  data-wow-duration="1s" data-wow-delay=".5s"><img src="images/border.png" alt="border"/></div>
+                    <p class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">
+                      L'attività agricola è iniziata da oltre 20 anni, e vanta una produzione di assoluta qualità con utilizzo
+                      di soli concimi naturali. Potrete gustare gli ortaggi del nostro orto e del nostro frutteto.
+                      La nostra produzione di miele e di tartufo è molto apprezzata e conosciuta nel territorio limitrofo.
+                    </p>
+                    <p class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">
+                      Da maggio di quest'anno abbiamo iniziato l'attività di agriturismo a dimensione familiare, in un
+                      ambiente naturale sul dorso degli appennini, ad una altitudine di 700 metri.
+                    </p>
+                </div>
+
+                <div class="col-md-6 ab-left">
+                    <div class="flexslider regular">
+                        <ul class="slides">
+                            <li>
+                                <img src="images/azienda1.jpg" />
+                            </li>
+                            <li>
+                                <img src="images/azienda2.jpg" />
+                            </li>
+                            <li>
+                                <img src="images/azienda3.jpg" />
+                            </li>
+                            <li>
+                                <img src="images/azienda4.jpg" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Paese -->
     <div class="paese" id="paese">

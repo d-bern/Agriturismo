@@ -47,7 +47,7 @@ label{
 }
 /*-- header --*/
 .banner {
-    background: url(../images/banner2.jpg) no-repeat 0px 0px;
+    background: url(../images/banner.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -172,7 +172,7 @@ label{
 }
 /*-- //nav-hover --*/
 
-@media only screen and (max-width :800px) {
+@media only screen and (max-width :850px) {
   .header-bottom {
     padding: 1em 0em
   }
@@ -783,11 +783,11 @@ a.hi-icon img {
 }
 /*--azienda--*/
 #azienda {
-       padding: 7.2em 6em;
-	   text-align:center;
+    padding: 7.2em 6em;
+  	text-align:center;
 }
 .s-1 h3,.s-2 h3,.s-3 h3,.s-1 h3,.s-2 h3,.s-4 h3{
-	color: #EFA52C;
+    color: #EFA52C;
     font-size: 1.4em;
     text-transform: uppercase;
     line-height: 1.5em;
